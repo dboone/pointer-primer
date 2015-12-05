@@ -1,5 +1,4 @@
-## Value Semantics (Assignment)
-
+## Assignment Value Semantics
 Consider this simple example:
 
 ``` cpp
@@ -16,7 +15,7 @@ The value of `x` is assigned to `y` using value semantics. This means that the v
 
 
 
-## Value Semantics (Argument Passing)
+## Argument Value Semantics
 Arguments can be passed to function under the saw value semantics: the values passed to the function are *copies*. See this live at [Ideone](http://ideone.com/VBRd3V).
 
 ``` cpp
