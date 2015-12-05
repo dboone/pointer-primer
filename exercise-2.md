@@ -1,5 +1,5 @@
 ## Pointer Argument Passing: Part II
-Let's change the value of `y` (i.e. change what `y` points to) in the function `foo`. See this live at [Ideone](http://ideone.com/9pSYQJ).
+Let's change the value of `y` (i.e. change where `y` points) in the function `foo`. See this live at [Ideone](http://ideone.com/9pSYQJ).
 
 ``` cpp
 #include <iostream>
