@@ -24,4 +24,4 @@ What is the output?
 
 We are still using value semantics when we pass `y` to the function `foo`. This means the function `foo` is passed a copy of `y` from the function `main`. Even though the pointer is a copy of the pointer in the `main` function, both pointers point to the same memory address (the address of `x`). Because both pointers (the original and copy) point to the same memory address, either can be used to access/mutate the value stored at that memory address.
 
-What would happen if changed where `y` pointed in the function `foo`?
+What would happen if we changed the value of `y` (i.e. change where `y` points) in the function `foo`?
