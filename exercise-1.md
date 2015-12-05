@@ -1,4 +1,4 @@
-## Value Semantics (Pointer Argument Passing)
+## Pointer Argument Passing: Part I
 Just like the integer in the previous example, pointers can also be passed to functions using value semantics. See this live at [Ideone](http://ideone.com/YEOdIE).
 
 ``` cpp
